@@ -1,0 +1,83 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import './font.css';
+
+:root {
+  --primary-color: #282b41;
+  --secondary-color: #34374c;
+  --white-color: #ffffff;
+  --white-light: #ffffff99;
+  --purple-color: #8c96ff;
+  --green-color: #64ffaa;
+  --yellow-color: #ffc164;
+  --red-color: #ff6464;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: IBM_Regular;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+ul {
+  list-style: none;
+}
+span {
+  display: inline-block;
+}
+
+.titleXL {
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: -0.04em;
+}
+
+.titleL {
+  font-size: 32px;
+  line-height: 41.6px;
+  letter-spacing: -0.04em;
+}
+
+.titleM {
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+}
+
+.titleXS {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.2px;
+  letter-spacing: -0.01em;
+}
+
+.bodyL {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+.bodyM {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+.bodyS {
+  font-size: 12px;
+  line-height: 15.6px;
+  letter-spacing: -0.02em;
+}
+
+.bodyXS {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+}
